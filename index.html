@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment #6 - Selector Detective & Party in Motion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="header-container">
+      <h1>The Party Detective 🕵️‍♂️</h1>
+      <p>19:30 - 22:30 | Find the thief and animate the party!</p>
+    </div>
+  </header>
+
+  <main class="main-container">
+    
+    <section class="control-panel">
+      <h2>Case Controls</h2>
+      <div class="cases-grid">
+        <button class="btn-case" data-case="1">1. Hall</button>
+        <button class="btn-case" data-case="2">2. Yellow/Purple</button>
+        <button class="btn-case" data-case="3">3. AITU Upstairs</button>
+        <button class="btn-case" data-case="4">4. Glasses/Bag</button>
+        <button class="btn-case" data-case="5">5. Nothing</button>
+        <button class="btn-case" data-case="6">6. Phone & No Bag</button>
+        <button class="btn-case" data-case="7">7. 20:30 - 21:00</button>
+        <button class="btn-case" data-case="8">8. > 21:00 Non-AITU</button>
+        <button class="btn-case" data-case="9">9. Next to Askar</button>
+        <button class="btn-case" data-case="10">10. Last in Room</button>
+        <button class="btn-case" data-case="11">11. 3rd in Room</button>
+        <button class="btn-case" data-case="12">12. After Timur</button>
+        <button class="btn-case" data-case="13">13. Before Black</button>
+        <button class="btn-case" data-case="14">14. Aruzhan's Room</button>
+        <button class="btn-case" data-case="15">15. Rooms < 6</button>
+        <button class="btn-case" data-case="16">16. Cup & No Glasses</button>
+        <button class="btn-case" data-case="17">17. First Arrival</button>
+        <button class="btn-case" data-case="18">18. Miras Arrives</button>
+        <button class="btn-case" data-case="19">19. Natasha Leaves</button>
+        <button class="btn-case btn-thief" data-case="20">20. 🍰 Find Thief!</button>
+      </div>
+      <div class="action-bar">
+        <button id="btn-clear" class="btn-action">Clear Spotlight</button>
+        <div id="result-info" class="result-display">Select a case...</div>
+      </div>
+    </section>
+
+    <section id="house" class="house-container">
+    </section>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/task1.js"></script>
+  <script src="js/task2.js"></script>
+</body>
+</html>
